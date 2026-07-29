@@ -216,6 +216,17 @@ Open problems we're actively working on — latency budgets under load, retrieva
 
 ---
 
+## Open source
+
+Small tools from the work above. MIT, zero runtime dependencies.
+
+| | |
+| :--- | :--- |
+| **[latency-budget](https://github.com/midalaxy/latency-budget)** | Measures time-to-first-byte across a streaming pipeline and names the stage that blew the budget. Judges at p95, because meeting a budget at the median still breaks one conversation in twenty. |
+| **[rag-eval](https://github.com/midalaxy/rag-eval)** | Scores retrieval against your own labelled queries. The useful output is not the score — it's the list of questions your users ask that retrieval can't answer. |
+
+---
+
 <div align="center">
 
 <br/>
